@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  button.pill {
+      position: fixed;
+      top: 92vh;
+      left: 40%;
+  }
+  
+  
+  
+  h1 {
+    color: black;
+    font-size: 3vh
+  }
+  
+  ul {
+    display: none;
+    
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+  }
+  
+  li {
+    list-style-type: none;
+    margin-bottom: 4vh;
+  }
+  
+  nav {
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+  }
+  
+  nav img {
+    margin: 5px;
+  }
+  
+  
+  section {
+    width: 100vw;
+    height: fit-content;
+    
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 50vh 50vh;
+    
+    position: relative;
+  }
+  
+  section div {
+    width: 100vw;
+  
+  }
+  
+  
+  
+  .bloco-a {
+    display: flex;
+    align-items: center;
+    
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+   
+  .bloco-b {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .text-left {
+    text-left: left;
+    margin-left: 5vw; 
+  }
+  
+  .text-right {
+   text-align: right;
+   margin-right: 5vw;
+  }
+  
+  .text-center {
+    text-align: center;
+    font-size: 10vw;
+    margin-top: 0px;
+  }
+
+  .calendar_a, .calendar_b, .repertorio_a, .repertorio_b {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  
+  .complete-page {
+    width: 100vw;
+  }
+
+  .close-btn {
+    position: fixed;
+    left: 1vw;
+  }
+  
+  .li-first {
+    margin-top: 20vh;
+  }
+  
+
+  .mod-b {
+      display: flex;
+      flex-wrap: wrap;  
+      height: 25vh;
+  }
+
+  .repertorio-list {
+    overflow-y: scroll;
+    width: 90vw;
+    height: 45vh;
+    margin: 0 auto;
+  }
+
+  .sec-3__h1 {
+      width: 100vw;
+      margin-bottom: 0px;
+  }
+
+  .sec-3__g__p p {
+    margin-left: 25vw;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+
+  .sec-3__g__p p:nth-child(1) {
+      margin-top: 0px;
+  }
+
+  #bg {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    z-index: -1;
+  }
+  
+  
